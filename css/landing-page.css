@@ -66,8 +66,8 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
     ),url(images/img_2475_1024.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -271,15 +271,4 @@ img:hover {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
  
-}
-
-#header-nav {
-  border-radius: 0;
-  border: 0;
-
-}
-
-.gallery-background {
-  background-image: url("images/gallery_background.jpg");
-  background-repeat: repeat;
 }
