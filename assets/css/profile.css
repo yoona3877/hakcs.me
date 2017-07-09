@@ -1,0 +1,76 @@
+.individual_profile{
+    padding:2px;
+}
+
+.profile_cover-photo{
+    width: 100%;
+    max-height: 150px;
+    height: auto;
+}
+
+.profile_photo{
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+}
+#profile_img{
+    width: 100%;
+    height: auto; 
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    text-align: left;
+}
+
+li a{
+    text-align: center;
+    color: Olive;
+    text-decoration: none;
+} 
+
+.post_feed {
+    background: white;
+    padding: 0px;
+}
+
+.post {
+    background: white;
+    padding: 10px;
+    margin: 15px;
+}
+
+@media screen and (min-width: 480px) {
+    section::after {
+        clear: both;
+        content: '';
+        display: table;
+        height: 0;
+        visibility: hidden;
+    }
+    section article {
+        float: left;
+        padding: 20px;
+    }
+
+    /* Re-style here... */
+    
+    article {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* Re-style here, if necessary! */
+
+    header::after {
+        clear: both;
+        content: '';
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }  
+}
