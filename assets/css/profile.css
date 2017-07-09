@@ -10,8 +10,8 @@
 
 .profile_photo{
     width: 100%;
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
 }
 #profile_img{
@@ -20,9 +20,9 @@
 }
 
 section {
-    background-color: white;
+    background-color: rgba(255,255,255,.3);
     padding: 15px;
-    color: black;
+    color: white;
     text-align: left;
 }
 
@@ -32,17 +32,16 @@ li a{
     text-decoration: none;
 } 
 
-.post_feed {
-    background: white;
-    padding: 0px;
+.profile_links{
+    color:black;
 }
 
-.post {
-    background: white;
-    padding: 10px;
-    margin: 15px;
+h4{
+    color:black;
+    font-family: "garamond", "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    
 }
-
 @media screen and (min-width: 480px) {
     section::after {
         clear: both;
@@ -58,8 +57,11 @@ li a{
 
     /* Re-style here... */
     
-    article {
-        width: 50%;
+    #article1 {
+        width: 35%;
+    }
+        #article2 {
+        width: 60%;
     }
 }
 
