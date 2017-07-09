@@ -1,5 +1,5 @@
 .individual_profile{
-    padding:2px;
+    padding:10px;
 }
 
 
@@ -12,8 +12,9 @@
 .profile_photo{
     width: 100%;
     max-width: 300px;
-    max-height: 300px;
-    height: auto;
+    max-height: 270px;
+    height: cover;
+    background-size: cover;
 }
 #profile_img{
     width: 100%;
@@ -22,7 +23,7 @@
 
 section {
     background-color: rgba(255,255,255,.3);
-    padding: 15px;
+    padding: 5px;
     color: white;
     text-align: left;
 }
@@ -53,7 +54,7 @@ h4{
     }
     section article {
         float: left;
-        padding: 20px;
+        padding: 10px;
     }
 
     /* Re-style here... */
