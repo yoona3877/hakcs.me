@@ -266,9 +266,3 @@ img {
     height: auto;
     vertical-align: middle;
 }
-
-img:hover {
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
- 
-}
