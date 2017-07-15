@@ -286,10 +286,9 @@ img:hover {
 #header-nav {
   border-radius: 0;
   border: 0;
-
 }
 
 .gallery-background {
-  background-image: url("images/gallery_background.jpg");
+  background-image: url("assets/images/gallery_background.jpg");
   background-repeat: repeat;
 }

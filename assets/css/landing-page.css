@@ -255,6 +255,7 @@ p.copyright {
 .padding-top {
     padding-top: 70px;
 }
+
 img {
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -266,3 +267,9 @@ img {
     height: auto;
     vertical-align: middle;
 }
+
+.gallery-background {
+  background-image: url("../images/gallery_background.jpg");
+  background-repeat: repeat;
+}
+
