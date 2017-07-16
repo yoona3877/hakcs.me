@@ -44,9 +44,9 @@ h6 {
   padding-bottom: 50px;
   color: #f8f8f8;
   background: linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)
-  ),url(../images/20170223_154319.jpg) no-repeat center center;
+    rgba(128, 128, 128, 1.0),
+    rgba(220, 220, 220, 0.7)
+  ) no-repeat center center;
   background-size: cover;
 }
 .apps-header{
@@ -272,4 +272,3 @@ img {
   background-image: url("../images/gallery_background.jpg");
   background-repeat: repeat;
 }
-
