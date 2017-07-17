@@ -63,8 +63,8 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
     ),url(../images/img_2475_1024.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -269,3 +269,32 @@ img {
   background-image: url("../images/gallery_background.jpg");
   background-repeat: repeat;
 }
+
+.navbar_custom {
+  background: #222223;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:white;
+  font-weight:lighter;
+  font-size:13px;
+}
+
+.navbar_custom li:hover {
+  background-color:white;
+  
+}
+
+.navbar_custom .navbar-brand {
+  color:#e3e5e8;
+  font-size:23px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar_custom .navbar-brand:hover {
+  color:white;
+}
+
