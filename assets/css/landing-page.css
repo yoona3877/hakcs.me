@@ -39,6 +39,13 @@ h6 {
   ),url(../images/20160902_120026.jpg) no-repeat center center;
   background-size: cover;
 }
+
+.paddings{
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+}
+
+
 .music-header{
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
@@ -296,5 +303,13 @@ img {
 
 .navbar_custom .navbar-brand:hover {
   color:white;
+}
+
+.color-black {
+  color:black;
+}
+
+.caption i{
+  padding:10px;
 }
 
