@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="assets/css/landing-page.css">
+  
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/landing-page.css">
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/lightbox.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
   <style>
   .navbar {
@@ -25,9 +26,8 @@
 
 </head>
 
-<body class="gallery-background">
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
+<body>
+    <nav id="header-nav" class="navbar navbar-default navbar_custom">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -41,32 +41,29 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="info.html">소개글</a></li>
+            <li id="li-white"><a href="info.html">소개글</a></li>
             <li><a href="news.html">공지</a></li>
-            <li class="active"><a href="#">갤러리<span class="sr-only">(current)</span></a></li>
-            <li><a href="projects.html">프로젝트 소개</a></li>
+            <li><a href="#">갤러리</a></li>
+            <li class="active"><a href="projects.html">프로젝트 소개</a></li>
             <li><a href="members.html">임원 소개</a></li>
             <li><a href="https://open.kakao.com/o/gKWnjTx">익명 채팅</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://www.facebook.com/groups/hakcs/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i> </a>
+            <li><a href="https://www.facebook.com/groups/hakcs/"><i style="color:#568ad8" class="fa fa-facebook fa-lg" aria-hidden="true"></i> </a>
             </li>
           </ul>
         </div>
         </div>
       </div>
     </nav>
-  </header>
-
-
 <div class="container padding-top">
 	<div class="row">
-  <div class="col-md-3 col-sm-4 col-xs-6"><a href="assets/images/20160821_144017.jpg" data-lightbox="gallery"><img class="img-responsive" src="assets/images/20160821_144017.jpg"></a></div>
+  <div class="col-sm-4 col-xs-6"><a href="assets/images/20160821_144017.jpg" data-lightbox="gallery"><img class="img-responsive" src="assets/images/20160821_144017.jpg"></a></div>
 
-  <div class="col-md-3 col-sm-4 col-xs-6"><a href="assets/images/20160903_102836.jpg" data-lightbox="gallery"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div></a>
-  <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
-  <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
-  <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
+  <div class="col-sm-4 col-xs-6"><a href="assets/images/20160903_102836.jpg" data-lightbox="gallery"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div></a>
+  <div class="col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
+  <div class="col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
+  <div class="col-sm-4 col-xs-6"><img class="img-responsive" src="assets/images/20160903_102836.jpg"></div>
   </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
