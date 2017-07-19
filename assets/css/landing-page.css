@@ -30,14 +30,13 @@ h6 {
     font-weight: 400;
 }
 .info-header{
-  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
-  color: #f8f8f8;
-  background: linear-gradient(
+  /*background: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),url(../images/20160902_120026.jpg) no-repeat center center;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .paddings{
