@@ -380,3 +380,4 @@ body { font-family: sans-serif; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
 .grid-item--height--auto {height:auto;}
+.date {color:#bcbfb3;}
